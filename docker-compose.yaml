@@ -1,0 +1,5 @@
+services:
+  baidupcs-go:
+    build: .
+    image: snomiao/baidupcs-go
+    

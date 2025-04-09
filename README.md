@@ -293,7 +293,6 @@ cli交互模式下, 光标所在行的前缀应为 `BaiduPCS-Go >`, 如果登录
 
 ## 安装
 
-
 ## Windows
 
 程序应在 命令提示符 (Command Prompt) 或 PowerShell 中运行, 在 mintty (例如: GitBash) 可能会有显示问题.
@@ -319,6 +318,14 @@ cli交互模式下, 光标所在行的前缀应为 `BaiduPCS-Go >`, 如果登录
 示例: [iOS 运行本项目程序参考示例](https://web.archive.org/web/20190820155025/https://github.com/iikira/BaiduPCS-Go/wiki/iOS-%E8%BF%90%E8%A1%8C%E6%9C%AC%E9%A1%B9%E7%9B%AE%E7%A8%8B%E5%BA%8F%E5%8F%82%E8%80%83%E7%A4%BA%E4%BE%8B), 有兴趣的可以参考一下.
 
 具体使用方法请参见 [命令列表及说明](#命令列表及说明) 和 [初级使用教程](#初级使用教程).
+
+## Docker
+
+如果你有 Docker 环境，也可以直接在 Docker 中使用
+
+```sh
+docker run --rm -it snomiao/BaiduPCS-Go
+```
 
 # 命令列表及说明
 
